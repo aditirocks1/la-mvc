@@ -6,7 +6,7 @@ adjectives = ["aggressive","arrogant","boisterous","boring","crazy","compassiona
 def adjectives
         return adjectives.sample(1)
 end
-vegetables = ["asparagus", "artichoke","arugala","beetroot","bok choy","brussel sprouts","cabbage","carrots","cauliflower","celery","collard greens","cucumber","kale","leek","lettuce","onion","potato","radish","scallion","shallot","sqaush","spinach","sweet potato","turnip","zuccini"]
+vegetables = ["asparagus", "artichoke","arugala","beetroot","bok choy","brussel sprouts","cabbage","carrots","cauliflower","celery","collard greens","cucumber","kale","leek","lettuce","onion","potato","radish","scallion","shallot","squash","spinach","sweet potato","turnip","zuccini"]
 def vegetables
         return vegetables.sample(1)
 end
