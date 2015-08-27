@@ -1,10 +1,3 @@
-class Result
-  def response(name, emotion)
-    if emotion == "panic" 
-      return "Don't worry!"
-    else
-      return "Me too!"
-    end
-    end 
-end
+users = ["User1", "User2","User3", "User4", "User5"]
+puts users.sample(2)
 
