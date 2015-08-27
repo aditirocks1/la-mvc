@@ -2,7 +2,7 @@ users = ["User1", "User2","User3", "User4", "User5"]
 def user_names
         return users.sample(2)
 end
-adjectives = ["aggressive","arrogant","boisterous","boring","crazy","compassionate","depressed","disdainful","flamboyant","glamorous","jovial","klutzy","miserable","neat","nifty","puzzled","prudent","quirky","self-concious","sexy","sneaky","suspicious","vapid","violent","wimpy"]
+adjectives = ["aggressive","arrogant","boisterous","boring","crazy","compassionate","depressed","disdainful","flamboyant","glamorous","jovial","klutzy","miserable","neat","nifty","puzzled","prudent","quirky","ratchet", "self-concious","sexy","sneaky","suspicious","violent","wimpy"]
 def adjectives
         return adjectives.sample(1)
 end
