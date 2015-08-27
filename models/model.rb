@@ -13,7 +13,6 @@ def vegetables
 end
 
 
-puts user_names(users)
 puts adjectives
 puts vegetables
 
