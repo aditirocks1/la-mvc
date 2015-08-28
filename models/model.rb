@@ -3,7 +3,7 @@ def user_names(users)
 end
 
 def adjectives
-    adjectives = ["aggressive","arrogant","boisterous","boring","crazy","compassionate","depressed","disdainful","flamboyant","glamorous","jovial","klutzy","miserable","neat","nifty","puzzled","prudent","quirky","ratchet","self-concious","sexy","sneaky","suspicious","violent","wimpy"]
+    adjectives = ["aggressive","arrogant","boisterous","boring","crazy","compassionate","depressed","disdainful","flamboyant","glamorous","jovial","klutzy","miserable","neat","nifty","puzzled","prudent","quirky","ratchet","self-conscious","sexy","sneaky","suspicious","violent","wimpy"]
   return adjectives[rand(25)]
 end
 
