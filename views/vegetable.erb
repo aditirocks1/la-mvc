@@ -6,11 +6,16 @@
   <title>Veggie-Off!</title>
  </head>
  <body>
+   <form method = "POST" action = "/lastpage">
    <div>
    <h1> <%=@adjectives%> <%=@vegetables%>! </h1>
      <br> <br>
-   Vote for Player1: <input type = "submit" name = >
-   Vote for Player2: <input type = "submit" name = >
+     Number of votes for <%=@player1%>: <input type = "text" name = "count1" > <br>
+     Number of votes for <%=@player2%>: <input type = "text" name = "count2" >
+   <br> <input type = "submit" value = "Submit!">
+     <input type = "hidden"  name = "player1" value = <%=@player1%>>
+     <input type = "hidden"  name = "player2" value = <%=@player2%>>
   </div>
+   </form>
   </body>
 </html>

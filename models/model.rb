@@ -8,12 +8,17 @@ def adjectives
 end
 
 def vegetables
-    vegetables = ["asparagus", "artichoke","arugala","beetroot","bok choy","brussel sprouts","cabbage","carrots","cauliflower","celery","collard greens","cucumber","kale","leek","lettuce","onion","potato","radish","scallion","shallot","squash","spinach","sweet potato","turnip","zuccini"]
+    vegetables = ["asparagus", "artichoke","arugala","beetroot","bok choy","brussel sprouts","cabbage","carrot","cauliflower","celery","collard greens","cucumber","kale","leek","lettuce","onion","potato","radish","scallion","shallot","squash","spinach","sweet potato","turnip","zuccini"]
   return vegetables[rand(25)]
 end
 
+def winner(count1, count2, player1, player2)
+  if count1.to_i > count2.to_i
+    return player1
+  else
+    return player2
+  end
+end
 
-puts adjectives
-puts vegetables
 
 
