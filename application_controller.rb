@@ -18,8 +18,8 @@ class MyApp < Sinatra::Base
   end
 
   post '/tomato' do
-    @adjectives = adjectives.to_s
-    @vegetables = vegetables.to_s
+    @adjectives = adjectives
+    @vegetables = vegetables
     erb :vegetable
   end
 end
