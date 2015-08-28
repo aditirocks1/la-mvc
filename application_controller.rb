@@ -11,8 +11,8 @@ class MyApp < Sinatra::Base
   post '/players' do
     puts params
     names = user_names(params)
-    @player1 = names[0]
-    @player2 = names[1]
+    @player1 = names[0][1]
+    @player2 = names[1][1]
     erb :match
   end
 

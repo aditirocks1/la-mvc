@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family: Verdana, sans-serif;
+}
+input[type=submit] {
+        width: 200px;
+        height: 100px;
+        font-size: 27px;
+}
