@@ -15,3 +15,11 @@ input[type=submit] {
         height: 100px;
         font-size: 27px;
 }
+
+html {
+  background: url(http://images.all-free-download.com/images/graphiclarge/vegetables_set_clip_art_11837.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

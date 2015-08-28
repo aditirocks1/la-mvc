@@ -13,7 +13,11 @@ class MyApp < Sinatra::Base
     names = user_names(params)
     @player1 = names[0][1]
     @player2 = names[1][1]
+    puts names
     erb :match
   end
-
+  
+  post '/' do
+    
+  end
 end
