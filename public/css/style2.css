@@ -1,8 +1,14 @@
 h1 {
-    text-align: center;
     color: black;
     font-size: 75px;
     font-family: Verdana, sans-serif;
+}
+body {
+  text-align: center;
+}
+
+div{
+  margin-top: 10%;
 }
 input[type=submit] {
         width: 200px;
