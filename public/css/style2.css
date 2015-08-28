@@ -14,6 +14,7 @@ input[type=submit] {
         width: 200px;
         height: 100px;
         font-size: 27px;
+        font-weight: 900;
 }
 
 html {
@@ -22,5 +23,5 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  cursor: url(http://orig07.deviantart.net/d433/f/2012/093/8/2/dancing_broccoli_icon_by_rosietheumbreon-d4uwzmz.gif), auto;
+  cursor: url(http://board.crossfit.com/images/cnome/smilies/broc.gif), auto;
 }

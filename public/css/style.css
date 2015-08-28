@@ -4,7 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  cursor: url(http://orig07.deviantart.net/d433/f/2012/093/8/2/dancing_broccoli_icon_by_rosietheumbreon-d4uwzmz.gif), auto;
+  cursor: url(http://board.crossfit.com/images/cnome/smilies/broc.gif), auto;
 }
 
 h1 {
@@ -12,6 +12,7 @@ h1 {
     color: black;
     font-size: 75px;
     font-family: Verdana, sans-serif;
+    opacity: 1;
 }
 
 body {
@@ -28,7 +29,7 @@ div.transbox {
     border: 1px solid black;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     width: 600px;
 }
 
@@ -36,3 +37,12 @@ div.transbox p {
     margin: 5%;
     font-weight: bold;
     color: #000000;
+/*     opacity: 1; */
+}
+
+
+
+
+
+
+
