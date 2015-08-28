@@ -16,8 +16,10 @@ class MyApp < Sinatra::Base
     puts names
     erb :match
   end
-  
-  post '/' do
-    
+
+  post '/tomato' do
+    @adjectives = adjectives.to_s
+    @vegetables = vegetables.to_s
+    erb :vegetable
   end
 end
